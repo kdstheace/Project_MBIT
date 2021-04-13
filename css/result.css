@@ -20,6 +20,24 @@ body {
   font-family: "NEXON Lv1 Gothic OTF";
 }
 
+button {
+  font-family: "NEXON Lv1 Gothic OTF";
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
 #main_contents {
   display: flex;
   justify-content: center;
@@ -183,4 +201,59 @@ body {
 .lectures li button {
   background-color: #7f47dd;
   color: #fff;
+}
+
+.share {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #ea7e7c;
+}
+
+.share button {
+  margin-bottom: 30px;
+}
+.facebook_share {
+  background-color: #3b5998;
+  color: #fff;
+}
+.kakao_share {
+  background-color: #f1d900;
+}
+
+.buttons {
+  padding-bottom: 50px;
+}
+
+.buttons h3 {
+  padding-bottom: 20px;
+}
+
+.buttons button {
+  margin-bottom: 30px;
+}
+
+.color {
+  background-color: #ea7e7c;
+  color: #fff;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developer a {
+  width: 100px;
+}
+.developer img {
+  width: 100%;
+  height: auto;
+}
+
+.developer p {
+  padding-top: 20px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.5;
 }
