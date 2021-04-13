@@ -84,9 +84,103 @@ body {
   text-align: center;
   border-top: 3px solid #ea7e7c;
   border-bottom: 3px solid #ea7e7c;
+  padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 .result_explains ul {
   padding: 0 20px;
   list-style-type: disc;
+}
+
+.result_explains li {
+  padding-bottom: 15px;
+}
+
+.lectures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid #ea7e7c;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.lectures .title {
+  text-align: center;
+  width: 400px;
+  font-size: 30px;
+  font-family: "GmarketSansBold";
+  columns: #ea7e7c;
+  position: relative;
+}
+
+.lectures .title:before,
+.lectures .title:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: #ea7e7c;
+  position: absolute;
+}
+
+.lectures .title:before {
+  left: 0;
+  top: 50%;
+}
+
+.lectures .title:after {
+  right: 0;
+  top: 50%;
+}
+
+.lectures p {
+  padding: 50px 0;
+  line-height: 1.5;
+}
+
+.lectures ul {
+  width: 400px;
+}
+
+.lectures li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.lectures a {
+  cursor: pointer;
+  text-decoration: none;
+  columns: inherit;
+  overflow: hidden;
+}
+
+.lectures a:hover img {
+  transform: scale(1.05);
+}
+
+.lectures a:hover button {
+  text-decoration: underline;
+}
+
+.lectures li img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  transition: transform 0.5s;
+}
+
+.lectures li h3 {
+  font-family: "GmarketSansBold";
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 10px 20px;
+}
+.lectures li button {
+  background-color: #7f47dd;
+  color: #fff;
 }
